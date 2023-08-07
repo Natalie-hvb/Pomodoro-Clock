@@ -11,27 +11,32 @@
             <h1>Pomodoro Timer</h1>
         </header>
         <main>
-            <div id="top-buttons">
-                <button id="timer" class="top-button">Timer</button>
-                <button id="break" class="top-button">Break</button>
-            </div>
             <div id="container">
-                <!-- Start Timer -->
-                <div id="start-timer" class="the-timer">
-                    <p id="start-minutes">25</p>
-                    <p class="semicolon">:</p>
-                    <p id="start-seconds">00</p>
+                <div id="top-buttons">
+                    <button id="timer" class="top-button">Timer</button>
+                    <button id="break" class="top-button">Break</button>
                 </div>
-                <!-- Break Timer -->
-                <!-- <div id="break-timer" class="the-timer">
-                    <p id="break-minutes">5</p>
+
+                <!-- Start Timer -->
+                
+                <div id="start-timer" class="the-timer">
+                    <p id="start-minutes">0</p>
                     <p class="semicolon">:</p>
-                    <p id="break-seconds">00</p>
-                </div> -->
+                    <p id="start-seconds">10</p>
+                </div>
+
+                <!-- Break Timer -->  
+                
+                <div id="break-timer" class="the-timer">
+                    <p id="break-minutes">0</p>
+                    <p class="semicolon">:</p>
+                    <p id="break-seconds">05</p>
+                </div> 
             </div>
             <div id="bottom-buttons">
-                <button id="timer" class="bottom-button">Start</button>
-                <button id="pause" class="bottom-button">Reset</button>
+                <button id="start" class="bottom-button">Start</button>
+                <button id="stop" class="bottom-button">Stop</button>
+                <button id="reset" class="bottom-button">Reset</button>
             </div>
         </main>
         <script src="main.js"></script>
