@@ -7,31 +7,30 @@
         <title>Pomodoro Clock</title>
     </head>
     <body>
-        <header>
+        <header class="main-content">
             <h1>Pomodoro Timer</h1>
         </header>
-        <main>
+        <main class="main-content">
             <div id="container">
-                <div id="top-buttons">
-                    <button id="timer" class="top-button">Timer</button>
-                    <button id="break" class="top-button">Break</button>
-                </div>
-
                 <!-- Start Timer -->
-                
-                <div id="start-timer" class="the-timer">
-                    <p id="start-minutes">0</p>
-                    <p class="semicolon">:</p>
-                    <p id="start-seconds">10</p>
+                <div class="timers">
+                    <button id="timer" class="top-button">Timer</button>
+                    <div id="start-timer" class="the-timer">
+                        <p id="start-minutes">25</p>
+                        <p class="semicolon">:</p>
+                        <p id="start-seconds">00</p>
+                    </div>
                 </div>
 
-                <!-- Break Timer -->  
-                
-                <div id="break-timer" class="the-timer">
-                    <p id="break-minutes">0</p>
-                    <p class="semicolon">:</p>
-                    <p id="break-seconds">05</p>
-                </div> 
+                <!-- Break Timer --> 
+                <div class="timers">
+                    <button id="break" class="top-button">Break</button> 
+                    <div id="break-timer" class="the-timer">
+                        <p id="break-minutes">05</p>
+                        <p class="semicolon">:</p>
+                        <p id="break-seconds">00</p>
+                    </div>
+                </div>
             </div>
             <div id="bottom-buttons">
                 <button id="start" class="bottom-button">Start</button>
